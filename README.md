@@ -1,0 +1,2 @@
+# RandomTextGen
+Text Content Generator
