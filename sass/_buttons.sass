@@ -1,0 +1,25 @@
+%buttons
+  padding: 10px 25px
+  display: inline-block
+  margin: 0 auto
+  font-size: 1.5em
+  width: 300px
+  text-align: center
+  border-radius: 10px
+  box-shadow: 0px 5px 25px -5px rgba(0,0,0,.4)
+  cursor: pointer
+  background-color: $light-green
+
+%buttons:active
+  box-shadow: 0px 5px 12px -5px rgba(0,0,0,.5)
+  transform: translateY(2px)
+  transition: all .1s ease-in-out
+
+.buttons
+  display: flex
+
+.muscle-button
+  @extend %buttons
+
+.testo-button
+  @extend %buttons
